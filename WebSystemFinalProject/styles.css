@@ -8,10 +8,6 @@
 }
 body {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background: 222;
 }
 
 .header {
@@ -194,7 +190,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .card {
   background: #fff;
   padding: 30px;
@@ -225,12 +220,41 @@ body {
 }
 .card .content {
   text-align: center;
-  height: px;
+  height: 35px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
-  background: #fff; /* Add this line */
-  color: #000; /* Add this line */
 } 
+.card:hover .content {
+  height: 350px;
+}
+.card .content h2{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.card .content p{
+  margin-bottom: 15px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.card .content .btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #222;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+.card .content .btn:hover {
+  background: #000;
+}
+.card:hover .content p, .card .content .btn{
+  opacity: 1;
+}
+
 
 .footer {
     background-color: #3d3a3a;
