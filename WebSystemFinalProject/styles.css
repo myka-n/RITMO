@@ -62,15 +62,14 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     height: 50px;
-	width: 50px;
-	background-color: transparent;
-	font-size: 25px;
+    width: 50px;
+    background-color: transparent;
+    font-size: 25px;
     border: none;
-    display: none;
   }
-  @media (max-width: 768px) { /* Adjust the screen width breakpoint as needed */
+  @media (max-width: 768px) { 
     .sidebar-toggle {
-      display: block; /* Show the button for smaller screens */
+      display: block; 
     }
   }
 
