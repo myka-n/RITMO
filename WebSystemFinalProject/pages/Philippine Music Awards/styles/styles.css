@@ -30,15 +30,46 @@ body {
     align-items: center;
   }
   .topbar-content img{
-    padding-left: 10px;
-    width: 200px;
-    height: 70px;
+    padding-left: 0px;
+    width: 130px;
+    height: 65px;
   }
   
+  .pages {
+    display: flex;
+  }
+  
+  .pages .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .pages .nav-link:hover{
+    background-color: #e0d9d965;
+    border-radius: 20px;
+  }
+
+  .pages .nav-link1{
+    margin-left: 300px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .pages .nav-link1:hover{
+    background-color: #e0d9d965;
+    border-radius: 20px;
+  }
+
   .search-form {
     display: flex;
     align-items: center;
-    padding-left: 200%;
+    padding-left: 200px;
     border-radius: 10px; 
   }
   
@@ -59,7 +90,7 @@ body {
 
   
   .sidebar-toggle {
-    margin-right: 10px;
+    margin-right: 0px;
     margin-left: 10px;
     height: 50px;
     width: 50px;
@@ -72,7 +103,7 @@ body {
       display: block; 
     }
   }
-
+  
 .sidebar {
     width: 250px;
     height: 100%;
@@ -111,8 +142,15 @@ body {
     padding: 5px;
     display: block;
 }
-#phmusic_awards{
+
+.content{
   background: linear-gradient(to right, #eba4a9, #7c5e68);
+  padding-top: 20px;
+
+}
+.content h1, .content p{
+  align-items: center;
+  text-align: center;
 }
 
 .footer {
