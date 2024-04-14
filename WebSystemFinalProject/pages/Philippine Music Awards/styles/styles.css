@@ -143,14 +143,71 @@ body {
     display: block;
 }
 
-.content{
-  background: linear-gradient(to right, #eba4a9, #7c5e68);
-  padding-top: 20px;
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.content h1, .content p{
+
+h1, h2, h3, h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.awards-section {
+  margin-bottom: 40px;
+}
+
+.awards-section h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.awards-section p {
+  margin-bottom: 20px;
+}
+
+.awards-section .award-content {
+  display: flex;
   align-items: center;
+}
+
+.award-image {
+  flex: 0 0 200px;
+  margin-right: 20px;
+}
+
+.award-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.read-more {
   text-align: center;
+  margin-top: 20px;
+}
+
+.read-more a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+  transition: border-color 0.3s ease;
+}
+
+.read-more a:hover {
+  border-color: #777;
 }
 
 .footer {

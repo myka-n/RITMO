@@ -22,7 +22,13 @@
                 <div class="topbar">
                     <div class="topbar-content">
                         <button class="sidebar-toggle" onclick="toggleSidebar()"><i class="fa fa-bars"></i></button>
-                        <img src="assets/img/ritmoNotfinal (2).png" class="img" href="index.html">
+                        <a href="index.html" class="logo-link">
+                            <img src="assets/img/ritmoNotfinal (2).png" class="img" alt="Logo">
+                          </a>
+                        <div class="pages">
+                          <a href="pages/Artists/artists.html" class="nav-link1">OPM Artists</a>
+                          <a href="pages/Philippine Music Awards/phmusicawards.html" class="nav-link">Philippine Music Awards</a>
+                        </div>
                         <form class="search-form" action="#" method="GET">
                             <input type="text" name="search" placeholder="Search...">
                             <button type="submit">Search
@@ -36,7 +42,7 @@
                         <button onclick="toggleSidebar()">X</button>
                     </div>
                     <ul class="sidebar-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../../index.html">Home</a></li>
                         <li><a href="pages/Artists/artists.html">OPM Artists</a></li>
                         <li><a href="pages/Genre/genre.html">Genres</a></li>
                         <li><a href="pages/Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a></li>
@@ -61,9 +67,7 @@
                 and amplify your reach?<br>
                 Tune in and<br>
             </p>
-                <button class="contents" onclick="toggleSectionVisibility()">
-                    <em>Feel the Vibe!</em>
-                </button> 
+            <button class="scroll-button" onclick="document.getElementById('hidden-section').scrollIntoView()">Feel the vibe</button>
         </section>
 
         <section id="hidden-section" class="hidden-section">
