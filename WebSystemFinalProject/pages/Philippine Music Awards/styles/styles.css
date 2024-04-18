@@ -37,51 +37,20 @@ body {
   
   .pages {
     display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
   }
   
-  .pages .nav-link {
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    margin-right: 10px;
-    margin-left: 20px;
-    white-space: nowrap;
-    text-align: center;
-  }
-  .pages .nav-link:hover{
-    background-color: #e0d9d965;
-    border-radius: 20px;
-  }
-
-  .pages .nav-link1{
-    margin-left: 300px;
-    padding: 10px;
+  .pages a {
+    padding: 20px;
     text-decoration: none;
     color: #333;
     white-space: nowrap;
     text-align: center;
   }
-  .pages .nav-link1:hover{
+  .pages a:hover{
     background-color: #e0d9d965;
-    border-radius: 20px;
-  }
-
-  .search-form {
-    display: flex;
-    align-items: center;
-    padding-left: 200px;
-    border-radius: 10px; 
-  }
-  
-  .search-form input {
-    margin-left: 10px;
     border-radius: 10px;
-    border: none; 
-  }
-  
-  .search-form button{
-    border-radius: 10px;
-    border: none; 
   }
 
   .logo {
