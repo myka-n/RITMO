@@ -8,6 +8,7 @@
 }
 body {
   min-height: 100vh;
+  background: linear-gradient(to right, #eba4a9, #7c5e68);
 }
 
 .header {
@@ -144,7 +145,12 @@ body {
   
 }
 
-.genre_card {
+.genre {
+  opacity: 1;
+  border: 10px;
+  padding: 15px;
+}
+.card-container {
   display: flex;
   justify-content: center;
 }
@@ -195,6 +201,11 @@ body {
 .card .content h1 {
   font-size: 30px;
   margin-bottom: 20px;
+}
+
+.card .content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .card:hover .content {

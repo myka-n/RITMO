@@ -170,7 +170,6 @@ background-color: transparent;
   padding-left: 10px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .card-container {
@@ -227,7 +226,7 @@ background-color: transparent;
 }
 
 .card:hover .content {
-  height: 350px;
+  height: 200px;
 }
 
 .card .content p{
