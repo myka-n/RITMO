@@ -1,0 +1,158 @@
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
+* {
+    font-family:   Georgia;
+    transition: opacity 0.5s ease-in-out;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  min-height: 100vh;
+}
+
+.header {
+    background: linear-gradient(to right, #eba4a9, #7c5e68);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .topbar-content {
+    display: flex;
+    align-items: center;
+  }
+  .topbar-content img{
+    padding-left: 0px;
+    width: 130px;
+    height: 65px;
+  }
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 600px;
+}
+
+.pages a {
+  padding: 20px;
+  text-decoration: none;
+  color: #070606;
+  white-space: nowrap;
+  text-align: center;
+}
+.pages a:hover{
+  background-color: #e0d9d965;
+  border-radius: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.sidebar-toggle {
+  margin-right: 0px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  font-size: 25px;
+  border: none;
+}
+@media (max-width: 768px) { 
+  .sidebar-toggle {
+    display: block; 
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 10%;
+  right: -150px;
+  width: 150px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  transition: left 0.3s ease-in-out;
+  z-index: 9999;
+  border-radius: 20px;
+  box-shadow: #333;
+}
+
+#sidebar-toggle {
+  display: none;
+}
+
+#sidebar-toggle:checked + .sidebar {
+  left: 0;
+}
+
+.sidebar a{
+  color:black;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-top > * {
+  flex: 1 0 10%;
+  margin-right: 1em;
+  padding-left: 10%;
+  align-items: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer-top p {
+  padding-right: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  .footer-top > * {
+      flex: 1;
+  }
+  .footer-top {
+      flex: 2 0px;
+  }
+}
