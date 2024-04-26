@@ -200,7 +200,8 @@ body {
 
 .card .content h1 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin: 25px;
+  text-align: center;
 }
 
 .card .content h2 {
