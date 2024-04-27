@@ -98,80 +98,111 @@ body {
   text-decoration: none;
   padding-left: 20px;
 }
-
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
+.section-plan{
+  background-image: url('../img/card.png');
+  background-repeat: no repeat;
+  background-size: cover;
+  padding-bottom: 20px;
 }
-
-h1, h2, h3, h4 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-p {
-  color: #555;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-.awards-section {
-  margin-bottom: 40px;
-}
-
-.awards-section h2 {
-  color: #333;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.awards-section p {
-  margin-bottom: 20px;
-}
-
-.awards-section .award-content {
-  display: flex;
-  align-items: center;
-}
-
-.award-image {
-  flex: 0 0 200px;
-  margin-right: 20px;
-}
-
-.award-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.read-more {
+.section-plan .content h1{
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.read-more a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  border-bottom: 2px solid #333;
-  transition: border-color 0.3s ease;
+.card {
+  flex: 0 0 calc(33.33% - 80px);
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(136, 131, 131, 0.9);
+  font-family: roboto;
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
 }
 
-.read-more a:hover {
-  border-color: #777;
+.card-image {
+  grid-area: image;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-image img{
+  height: 300px;
+  width: 290px;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/*card2*/
+.card-image.card2 {
+  background-size: cover;
+}
+
+.card-text.card2 .date {
+  color: rgb(255, 77, 7);
+}
+
+.card-stats.card2 .border {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+
+.card-stats.card2 {
+  background: rgb(255, 77, 7);
+}
+
+/*card3*/
+.card-image.card3 {
+  background-size: cover;
+}
+
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+
+.card-stats.card3 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+
+.card-stats.card3 {
+  background: rgb(0, 189, 63);
 }
 
 .footer {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: rgb(238, 230, 230);
 }
 
 .footer > * {
@@ -194,7 +225,7 @@ p {
 
 .footer a {
   text-decoration: none;
-  color: rgb(8, 8, 8);
+  color: rgb(8,8,8);
 }
 
 .footer-top {
@@ -229,3 +260,7 @@ p {
       flex: 2 0px;
   }
 }
+
+
+
+
