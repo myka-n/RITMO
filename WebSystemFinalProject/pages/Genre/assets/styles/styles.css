@@ -8,7 +8,6 @@
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(to right, #eba4a9, #7c5e68);
 }
 
 .header {
@@ -269,6 +268,7 @@ body {
 
 .footer a {
   text-decoration: none;
+  color:rgb(8, 8, 8);
 }
 
 .footer-top {
@@ -283,6 +283,9 @@ body {
   align-items: center;
 }
 
+.footer .social-media a{
+  padding-left: 15px;
+}
 .footer-bottom {
   text-align: center;
   padding-top: 50px;
@@ -300,7 +303,3 @@ body {
       flex: 2 0px;
   }
 }
-
-
-
-

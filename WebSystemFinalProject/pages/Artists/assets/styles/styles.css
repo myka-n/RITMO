@@ -53,6 +53,11 @@ body {
   border-radius: 10px;
 }
 
+.pages a:active{
+  background-color:#a15ba1;
+  color:#fff;
+}
+
 .logo {
   text-align: center;
 }
@@ -98,6 +103,123 @@ body {
   text-decoration: none;
   padding-left: 20px;
 }
+
+.opm {
+  text-align: center;
+  padding: 50px;
+  padding-left: 50px;
+  background-color: #ffffff;
+}
+
+.artisttext{
+  text-align: center;
+  padding: 20px;
+}
+
+.artist-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #eeecec;
+  border-radius: 10px;
+}
+
+.artist-section img {
+  margin: 0 70px; 
+  border-radius: 50%;
+}
+
+.artist-section div {
+  text-align: center;
+  margin: 5px; 
+  padding-top: 10px;
+}
+.artist-section div a{
+  text-decoration: none;
+  color: rgb(44, 43, 43);
+}
+.artist-section div a:hover{
+  color:rgb(180, 37, 37)
+}
+
+.artist-section img {
+  transition: transform 0.3s;
+}
+
+.artist-section img:hover {
+  transform: scale(1.1);
+}
+
+.artist-section img {
+  transition: border-color 0.3s;
+  border: 2px solid transparent; 
+  transition: box-shadow 3s;
+  box-shadow: 0 0 5px rgba(33, 73, 252, 0);
+}
+
+.artist-section img:hover {
+  border-color: none; 
+}
+
+.featured {
+  opacity: 0.5;
+}
+
+.artist-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.artist-info > div {
+  width: 48%; 
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.artist-info a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #f44336; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.artist-info a:hover {
+  background-color: #d32f2f; 
+}
+
+.artist-info {
+  margin-top: 50px; 
+}
+
+.bottom-links {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f33535;
+}
+
+.bottom-links a:hover {
+  color: #555;
+}
+
+.bottom-links i {
+  margin-left: 5px;
+}
+
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -125,6 +247,7 @@ body {
 
 .footer a {
   text-decoration: none;
+  color:rgb(8, 8, 8);
 }
 
 .footer-top {
@@ -139,6 +262,9 @@ body {
   align-items: center;
 }
 
+.footer .social-media a{
+  padding-left: 15px;
+}
 .footer-bottom {
   text-align: center;
   padding-top: 50px;
@@ -156,6 +282,23 @@ body {
       flex: 2 0px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
