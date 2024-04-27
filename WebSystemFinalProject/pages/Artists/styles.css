@@ -168,3 +168,126 @@ body {
 .footer i {
     margin-right: 5px;
 }
+
+.opm {
+  text-align: center;
+  padding: 50px;
+}
+
+.artisttext{
+  text-align: center;
+  padding: 20px;
+}
+
+.artist-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artist-section img {
+  margin: 0 70px; /* Adjust spacing between images */
+  border-radius: 50%;
+}
+
+.artist-section div {
+  text-align: center;
+  margin: 5px; /* Adjust spacing between image and text */
+}
+
+.artist-section img {
+  transition: transform 0.3s;
+}
+
+.artist-section img:hover {
+  transform: scale(1.1);
+}
+
+.artist-section img {
+  transition: border-color 0.3s;
+  border: 2px solid transparent; /* Ensure there is a border initially */
+}
+
+.artist-section img:hover {
+  border-color: rgb(223, 16, 16); /* Change to desired color */
+}
+
+.artist-section img {
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 5px rgba(33, 73, 252, 0); /* Ensure there is no shadow initially */
+}
+
+.featured {
+  opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+.artist-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.artist-info > div {
+  width: 48%; /* Each box takes up 48% of the container */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.artist-info a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.artist-info a:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.artist-info {
+  margin-top: 50px; /* Adjust the value as needed */
+}
+
+.bottom-links {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f33535;
+}
+
+.bottom-links a:hover {
+  color: #555;
+}
+
+.bottom-links i {
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
