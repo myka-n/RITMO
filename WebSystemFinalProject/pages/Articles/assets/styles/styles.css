@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #eba4a9, #7c5e68);
+    background-color: none;
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -99,6 +99,76 @@ body {
   padding-left: 20px;
 }
 
+#articles {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card .content{
+  padding-bottom: 15px;
+}
+.card .content1{
+  padding-bottom: 50px;
+}
+.card .content2{
+  padding-bottom: 30px;
+}
+.card .content3{
+  padding-bottom: 15px;
+}
+.card .content4{
+  padding-bottom: 60px;
+}
+.card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.card a {
+  display: inline-block;
+  background-color: #5e69a3;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in;
+}
+
+.card a:hover {
+  background-color: #2b2e5f;
+  transform: translateY(-10px);
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -126,6 +196,7 @@ body {
 
 .footer a {
   text-decoration: none;
+  color:rgb(8, 8, 8);
 }
 
 .footer-top {
@@ -140,6 +211,9 @@ body {
   align-items: center;
 }
 
+.footer .social-media a{
+  padding-left: 15px;
+}
 .footer-bottom {
   text-align: center;
   padding-top: 50px;

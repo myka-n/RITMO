@@ -166,12 +166,11 @@ p {
 .read-more a:hover {
   border-color: #777;
 }
-
 .footer {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: rgb(238, 230, 230);
 }
 
 .footer > * {
@@ -181,6 +180,7 @@ p {
 .footer p {
   font-weight: 600;
   font-size: 17px;
+  color:rgb(8, 8, 8);
 }
 
 .footer ul {
@@ -194,7 +194,7 @@ p {
 
 .footer a {
   text-decoration: none;
-  color: rgb(8, 8, 8);
+  color:rgb(8, 8, 8);
 }
 
 .footer-top {
