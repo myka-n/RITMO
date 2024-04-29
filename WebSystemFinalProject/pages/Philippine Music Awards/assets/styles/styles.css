@@ -156,15 +156,16 @@ p {
 }
 
 .read-more a {
-  color: #333;
+  color: #777676;
   text-decoration: none;
   font-weight: bold;
-  border-bottom: 2px solid #333;
-  transition: border-color 0.3s ease;
+  border-bottom: 2px solid #777676;
+  transition: border-color 1s ease;
 }
 
 .read-more a:hover {
-  border-color: #777;
+  border-color: #494be2;
+  color:rgb(5, 0, 0);
 }
 .footer {
   display: flex;

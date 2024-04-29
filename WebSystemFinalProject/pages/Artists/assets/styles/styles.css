@@ -53,11 +53,6 @@ body {
   border-radius: 10px;
 }
 
-.pages a:active{
-  background-color:#a15ba1;
-  color:#fff;
-}
-
 .logo {
   text-align: center;
 }
@@ -184,7 +179,7 @@ body {
   display: inline-block;
   padding: 5px 10px;
   margin-top: 10px;
-  background-color: #f44336; 
+  background-color: #5e69a3; 
   color: white; 
   text-decoration: none; 
   border-radius: 5px;
@@ -192,7 +187,7 @@ body {
 }
 
 .artist-info a:hover {
-  background-color: #d32f2f; 
+  background-color: #2b2e5f; 
 }
 
 .artist-info {
@@ -208,7 +203,7 @@ body {
 .bottom-links a {
   margin-right: 20px;
   text-decoration: none;
-  color: #f33535;
+  color: #5e69a3;
 }
 
 .bottom-links a:hover {
