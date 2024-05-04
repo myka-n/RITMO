@@ -132,23 +132,7 @@ body {
   }
 }
 
-.hidden-section {
-  padding-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  background: transparent;
-  padding-bottom: 100px;
-  padding-left: 10px;
-  justify-content: center;
-  align-items: center;
-  
-}
 
-.genre {
-  opacity: 1;
-  border: 10px;
-  padding: 15px;
-}
 .card-container {
   display: flex;
   justify-content: center;
@@ -156,37 +140,25 @@ body {
 .card {
   padding: 15px;
   border-radius: 10px;
-  max-width: 250px;
-  max-height: 350px;
+  max-width: 500px;
+  max-height: 600px;
   margin: 10px;
   display: flex;
   background: whitesmoke !important;
   opacity: 0.9;
-}
-.card:hover{
-  opacity: 1;
+  justify-content: baseline;
 }
 
 .card .img {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-  transition: 0.3s ease-in-out;
-}
-
-.card:hover .image {
-  transform: scale(0.9);
-  margin-top: -100px;
-}
-
-.card .image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100px;
+  height: 250px;
   border-radius: 8px;
 }
 
+.content .card .img{
+  max-width: 100px;
+  max-height: 250px;
+}
 .card .content {
   background: whitesmoke !important;
   text-align: center;
@@ -206,10 +178,6 @@ body {
 .card .content h2 {
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.card:hover .content {
-  height: 350px;
 }
 
 .card .content p{
