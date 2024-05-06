@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(246, 236, 222);
+    background-color:rgb(239, 223, 201);
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -98,20 +98,6 @@ body {
   padding-left: 20px;
 }
 
-.content button{
-    color: antiquewhite;
-    background-color: rgb(56, 87, 35);
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-.content button em {
-    color:rgba(240, 230, 230, 0.938);
-}
-.content button:hover{
-    background-color: #2b2e5f;
-    transform: translateY(-10px);
-}
-
 .scroll-button {
   background-color: #333;
   color: #fff;
@@ -135,32 +121,43 @@ body {
 .content{
   background: rgb(56, 87, 35);
 }
-.card-container {
+
+.content button{
+  color: rgb(239, 223, 201);
+  background-color: rgb(56, 87, 35);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content button:hover{
+  background-color:rgb(84, 130, 53);
+  color: rgb(239, 223, 201);;
+  transform: translateY(-10px);
+}
+
+.content .card-container {
   display: flex;
   justify-content: center;
 }
-.card {
+.content .card {
   padding: 15px;
   border-radius: 10px;
   max-width: 500px;
   max-height: 600px;
   margin: 10px;
   display: flex;
-  background: whitesmoke !important;
+  background:rgb(246, 236, 222) !important;
   opacity: 0.9;
   justify-content: baseline;
 }
 
-.card .img {
+.content .card .img {
   width: 100px;
   height: 250px;
   border-radius: 8px;
 }
 
-.content .card .img{
-  max-width: 100px;
-  max-height: 250px;
-}
+
 .card .content {
   background: whitesmoke !important;
   text-align: center;
@@ -171,34 +168,11 @@ body {
   transition: 0.3s ease-in-out;
 } 
 
-.card .content h1 {
-  font-size: 30px;
-  margin: 25px;
-  text-align: center;
-}
-
-.card .content h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.card .content p{
-  margin-bottom: 15px;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-  transition-delay: 0.1s;
-  font-size: 14px;
-}
-
-.card:hover .content p, .card .content .button{
-  opacity: 1;
-}
-
 .footer {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgb(246, 236, 222);
+  background-color: rgb(239, 223, 201);
 }
 
 .footer > * {
