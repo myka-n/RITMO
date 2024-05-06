@@ -163,7 +163,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
   padding-left: 30px;
   background:rgb(239, 223, 201);
 }
@@ -179,7 +179,7 @@ body {
   display: inline-block;
   padding: 5px 10px;
   margin-top: 10px;
-  background-color: #5e69a3; 
+  background-color: rgb(56, 87, 35); 
   color: white; 
   text-decoration: none; 
   border-radius: 5px;
@@ -187,27 +187,28 @@ body {
 }
 
 .artist-info a:hover {
-  background-color: #2b2e5f; 
+  background-color:  rgb(84, 130, 53); 
 }
 
 .artist-info {
-  margin-top: 50px; 
+  padding-top: 50px;
 }
 
 .bottom-links {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(56, 87, 35);
 }
 
 .bottom-links a {
   margin-right: 20px;
   text-decoration: none;
-  color: rgb(56, 87, 35);
+  color: rgb(239, 223, 201);
 }
 
 .bottom-links a:hover {
-  color: #555;
+  color: rgb(197, 224, 180);
 }
 
 .bottom-links i {

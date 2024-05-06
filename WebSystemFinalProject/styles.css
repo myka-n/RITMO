@@ -138,15 +138,20 @@ background-color: transparent;
 }
 
 .content button{
-    background-color: #5e69a3;
+    background-color: rgb(239, 223, 201); 
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
-.content button em {
-    color:rgba(240, 230, 230, 0.938);
+.content button i {
+    color:rgb(56, 87, 35);
 }
+
+.content button i:hover {
+  color:rgb(239, 223, 201);
+}
+
 .content button:hover{
-    background-color: #2b2e5f;
+    background-color: rgb(84, 130, 53);
     transform: translateY(-10px);
 }
 
@@ -192,7 +197,7 @@ background-color: transparent;
   max-height: 355px;
   margin: 10px;
   display: flex;
-  background: whitesmoke !important;
+  background: rgb(239, 223, 201) !important;
   opacity: 0.9;
 }
 .card:hover{
@@ -220,7 +225,7 @@ background-color: transparent;
 }
 
 .card .content {
-  background: whitesmoke !important;
+  background: rgb(239, 223, 201) !important;
   text-align: center;
   height: 35px;
   margin-top: 10px;
@@ -248,7 +253,7 @@ background-color: transparent;
 }
 
 .card .content .button {
-  background-color: #5e69a3;
+  background-color: rgb(56, 87, 35); 
   cursor: pointer;
   width: 130px;
   height: 30px;
@@ -256,11 +261,11 @@ background-color: transparent;
   border: none;
   transition: 0.3s ease-in-out;
   opacity: 0;
-  color: #ccc;
+  color: rgb(239, 223, 201);
 }
 
 .card .content .button:hover {
-  background-color: #2b2e5f;
+  background-color: rgb(84, 130, 53);
   transform: translateY(-10px);
 }
 
