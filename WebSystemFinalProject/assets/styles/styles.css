@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 body {
   min-height: 100vh;
@@ -16,60 +15,45 @@ body {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-
 .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: whitesmoke; 
+    background-color:  whitesmoke;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 80px;
-    width: 100%;
   }
   
-.topbar-content {
-  display: contents;
-  align-items: center;
-
+  .topbar-content {
+    display: flex;
+    align-items: center;
   }
-.topbar-content img{
-    float: left;
+  .topbar-content img{
     padding-left: 0px;
     width: 130px;
     height: 65px;
-}
+  }
 
 .pages {
-  float: right;
-  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 600px;
 }
 
-.pages li{
-  display: inline-block;
-  line-height: 100px;
-  margin: 10px 5px;
-  padding-top: 15px;
-  color: rgb(56, 87, 35);
-}
-
-.pages li a {
-  margin-top: 10px;
+.pages a {
   padding: 20px;
   text-decoration: none;
   color: #070606;
   white-space: nowrap;
   text-align: center;
 }
-.pages a.active, a:hover{
+.pages a:hover{
   background-color: #e0d9d965;
   border-radius: 10px;
 }
 
-.logo img{
-    float: left;
-    line-height: 80px;
-    margin-left: 20px;
+.logo {
+  text-align: center;
 }
 
 .sidebar-toggle {
@@ -100,73 +84,11 @@ body {
   box-shadow: #333;
 }
 
-.sidebar{
-  font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin-right: 10px;
-  cursor: pointer;
-  color: rgb(56, 87, 35);
+#sidebar-toggle {
   display: none;
 }
 
-#check{
-  display: none;
-}
-
-@media (max-width: 958px) { 
-  .logo img{
-    float: left;
-  }
-  .pages li a{
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 910px){
-  .pages li{
-    display: block;
-    height: 30px;
-    color: rgb(56, 87, 35);
-  }
-}
-
-@media (max-width: 910px){
-.sidebar{
-  display: block;
-}
-}
-
-.sidebar i{
-  padding-left: 15px;
-}
-
-.logo img{
-  align-items: center;
-}
-.pages{
-  position: fixed;
-  width: 300px;
-  height: 100vh;
-  background: rgb(239, 223, 201);
-  top: 80px;
-  left: -100px;
-  text-align: center;
-  transition: all .5s;
-}
-.page li{
-  margin: 0;
-  line-height: 30px;
-}
-.pages li a{
-  font-size: 20px;
-}
-.pages a:hover, a.active{
-  background:transparent;
-  color: rgb(56, 87, 35);
-  opacity: 10px;
-}
-#check:checked ~ .pages{
+#sidebar-toggle:checked + .sidebar {
   left: 0;
 }
 
@@ -175,7 +97,6 @@ body {
   text-decoration: none;
   padding-left: 20px;
 }
-
 
 .content {
     padding: 10px;
