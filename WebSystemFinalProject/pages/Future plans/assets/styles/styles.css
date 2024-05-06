@@ -8,10 +8,11 @@
 }
 body {
   min-height: 100vh;
+  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
 .header {
-  background-color: rgb(56, 87, 35);
+  background-color: rgb(142, 145, 142);
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -19,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(239, 223, 201);
+    background-color:whitesmoke;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -102,7 +103,8 @@ body {
   background-image: url('../img/card.png');
   background-repeat: no repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+
 }
 .section-plan .content h1{
   text-align: center;
@@ -157,19 +159,11 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
-.card-image.card2 {
-  background-size: cover;
-}
-
-.card-image.card3 {
-  background-size: cover;
-}
-
 .footer {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color:rgb(239, 223, 201);
+  background-color:whitesmoke;
 }
 
 .footer > * {

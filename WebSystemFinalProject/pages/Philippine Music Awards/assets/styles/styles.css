@@ -8,18 +8,18 @@
 }
 body {
   min-height: 100vh;
+  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
 .header {
-    background: rgb(56, 87, 35);
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 0;
 }
 .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  rgb(239, 223, 201);
+    background-color:whitesmoke;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -99,48 +99,53 @@ body {
 }
 
 .award-container {
-  background-color: rgb(56, 87, 35);
-  padding: 20px;
+  padding: 10px 10px;
+  padding-top: 50px;
   margin: 0%;
+  align-items: center;
+  background-color: #bfc7c4;
 }
 
-.award-container h1{
+.award-container .top-content{
   font-size: 30px;
-  color: rgb(239, 223, 201);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .award-container h2 {
-  color:rgb(239, 223, 201);
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.award-container p {
-  color:blanchedalmond;
+.award-container .top-content p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .awards-section {
-  margin-bottom: 40px;
+  padding: 40px 30px;
+ 
+}
+.awards-section .tab{
+  text-indent: 2em;
 }
 
 .awards-section h2 {
-  color:rgb(239, 223, 201);
   font-size: 20px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .awards-section h4 {
-  color:white;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .awards-section p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .awards-section .award-content {
@@ -148,25 +153,34 @@ body {
   align-items: center;
 }
 
-.award-image {
-  flex: 0 0 200px;
-  margin-right: 20px;
-}
-
-.award-image img {
+.awit-image img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 300px;
   border-radius: 5px;
+  padding-left: 20px;
 }
-
+.awards-section .myx-image img{
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  padding-right: 20px;
+}
+.awards-section .wish-image img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  padding-right: 20px;
+}
 .read-more {
   text-align: center;
   margin-top: 20px;
 }
 
 .read-more a {
-  color: rgb(239, 223, 201);
+  color: rgb(47, 95, 75);
   text-decoration: none;
   font-weight: bold;
   border-bottom: 2px solid #777676;
@@ -175,8 +189,8 @@ body {
 }
 
 .read-more a:hover {
-  border-color: #494be2;
-  color:rgb(5, 0, 0);
+  border-color: #49e2af;
+  color:rgb(7, 94, 36);
 }
 
 .footer {

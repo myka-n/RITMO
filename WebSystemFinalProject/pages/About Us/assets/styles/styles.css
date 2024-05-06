@@ -8,10 +8,10 @@
 }
 body {
   min-height: 100vh;
+  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
 .header {
-    background: rgb(56, 87, 35);
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(239, 223, 201);
+    background-color: whitesmoke;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -97,19 +97,20 @@ body {
   text-decoration: none;
   padding-left: 20px;
 }
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  background-color: rgb(239, 223, 201);
-}
 
 .content{
   padding-top: 20px;
   padding-bottom: 20px;
-  background: rgb(56, 87, 35);
-  color: rgb(239, 223, 201);
+  color: rgb(14, 13, 13);
 }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
 .footer > * {
   flex: 1 100%;
 }

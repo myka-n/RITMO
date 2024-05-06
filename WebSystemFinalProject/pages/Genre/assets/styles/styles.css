@@ -8,10 +8,10 @@
 }
 body {
   min-height: 100vh;
+  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
 .header {
-    background: rgb(56, 87, 35);
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(246, 236, 222);
+    background-color:whitesmoke;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -133,8 +133,9 @@ body {
 }
 
 .content{
-  background: rgb(56, 87, 35);
+
 }
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -198,7 +199,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgb(246, 236, 222);
+  background-color: whitesmoke;
 }
 
 .footer > * {
