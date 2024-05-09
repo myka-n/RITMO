@@ -1,6 +1,6 @@
-@import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
+@import url("");
 * {
-    font-family:   Georgia;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     transition: opacity 0.5s ease-in-out;
     box-sizing: border-box;
     margin: 0;
@@ -11,10 +11,6 @@ body {
   background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
-.header {
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -106,9 +102,15 @@ body {
 .top-content {
   text-align: center;
   margin-bottom: 20px;
-  color: whitesmoke;
-  text-shadow:#666;
 }
+
+.top-content span{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  font-size: 75px;
+  color: whitesmoke;
+}
+
 
 h1 {
   color: #333;
