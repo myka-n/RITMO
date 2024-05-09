@@ -11,11 +11,6 @@ body {
   background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
 
-.header {
-  background-color: rgb(142, 145, 142);
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
 .topbar {
     display: flex;
     justify-content: space-between;
