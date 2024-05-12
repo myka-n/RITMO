@@ -19,75 +19,73 @@
 <body>
   <header class="header">
     <nav>
-        <div class="topbar">
-            <div class="topbar-content">
-                <label for="sidebar-toggle" class="sidebar-toggle"><i class="fa fa-bars"></i></label>
+      <input type="checkbox" id="side">
+      <label for="side" class="sidebar">
+          <i class="fas fa-bars"></i>
+      </label>
 
-                <a href="../../index.html" class="logo-link">
-                    <img src="assets/img/ritmoNotfinal (2).png" class="img" alt="Logo">
-                  </a>
-                <div class="pages">
-                  <a href="../Artists/artists.html">OPM Artists</a>
-                  <a href="../Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a>
-                  <a href="../Genre/genre.html">Genre</a>
-                  <a href="../Articles/Articles.html">Articles</a>  
-                </div>
-            </div>
-        </div>
-        <input type="checkbox" id="sidebar-toggle">
-        <div class="sidebar">
-            <a href="../../index.html">Home</a><br>
-            <a href="../About Us/About Us.html">About Us</a><br>
-            <a href="../Future plans/futureplan.html">Future plans</a><br>
-        </div>
-    </nav>
+
+      <a href="index.html">
+          <img src="assets/img/ritmoNotfinal (2).png" class="img" alt="logo">
+      </a>
+
+      <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/Artists/artists.html">Artist</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/Genre/genre.html">Genre</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/Philippine Music Awards/phmusicawards.html">Music Awards</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/Articles/Articles.html">Articles</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/Future plans/futureplan.html">Future Plans</a></li>
+          <li><a class="active" href="../WebSystemFinalProject/pages/About Us/About Us.html">About</a></li>
+      </ul>
+  </nav>
 </header>
     
-    <div id="phmusic_awards">
-        <div class="container">
-            <h1>Philippine Music Awards: Celebrating Excellence in Music</h1>
-            <p>These are some of the existing Music Awards in the Philippines, Awit Awards, Wish Music Awards, Myx Music Awards, and more.</p>
+    <div class="phmusic_awards">
+        <div class="award-container">
+            <div class="top-content">
+              <h1>Philippine Music Awards: Celebrating Excellence in Music</h1>
+              <p>These are some of the existing Music Awards in the Philippines, Awit Awards, Wish Music Awards, Myx Music Awards, and more.</p>
+            </div>
         
             <div class="awards-section">
-              <h2>Awit Awards</h2>
+              <h2><b>Awit Awards</b></h2>
               <div class="award-content">
-                <div class="award-image">
-                  <img src="assets/img/awit_awards_trophy.jpg" alt="Awit Awards Trophy">
-                </div>
                 <div class="award-description">
-                  <p>
+                  <p class="tab">
                     The Awit Awards is a prestigious award-giving body that celebrates Filipino musicians and other individuals who contribute to the production of Filipino music. The term "Awit" originates from the Filipino language and signifies "song" in English. Each year, the Philippine Association of the Record Industry (PARI) organizes the Awit Awards to recognize exceptional achievements in the music industry and honor those who have made significant contributions in the music industry.
                   </p>
-                  <p>
+                  <p class="tab">
                     The first Awit Awards ceremony took place in Makati in 1969. However, the Awit Awards were discontinued in 1972 after three ceremonies. It was later revived by the Philippine Association of the Record Industry (PARI), and the awards were restarted in 1988. Since then, the Awit Awards have been held annually and continue to this day.
-                  </p>
-                  <p>
                     OPM legends such as Gary Valenciano, Ryan Cayabyab, Jose Mari Chan, Ogie Alcasid, Parokya ni Edgar, and many others have been recognized as past winners of the prestigious Awit Awards. The latest edition of the Awit Awards was held on November 9, 2023.
-                  </p>
-                  <p>
                     While the Awit Awards is generally regarded as a reputable awards show, it has faced criticism from online users regarding alleged inconsistencies in vote results and a perceived lack of transparency and accountability. What are your thoughts about this? Let us know!
                   </p>
+                </div>
+                <div class="awit-image">
+                  <img src="assets/img/awit_awards_trophy.jpg" alt="Awit Awards Trophy">
                 </div>
               </div>
             </div>
         
             <div class="awards-section">
-              <h2>Myx Music Awards</h2>
+              <h2><b>Myx Music Awards</b></h2>
               <div class="award-content">
-                <div class="award-image">
+                <div class="myx-image">
                   <img src="assets/img/myx_awards.png" alt="Myx Music Awards">
                 </div>
                 <div class="award-description">
-                  <p>
+                 
+                  <p class="tab">
                     The cable channel Myx presents the Myx Music Awards, often known as the Myx Awards, to honor the biggest hitmakers in the Philippines. The annual awards ceremony takes place in March and is broadcast on Myx but on delayed time. The first edition of this award was on June 6, 2006, which was almost 18 years ago.
                   </p>
-                  <p>
+                  <p class="tab">
                     Myx Awards have 17 major categories (some of these categories have already vanished and been added), which include theBest Music Video, Song of the Year, Artist of the Year, and more. The winners are determined through a combination of online voting and artist and expert panel deliberation.
                   </p>
-                  <p>
+                 
+                  <p class="tab">
                     Over the years, the Myx Music Awards have become one of the most anticipated events in the Philippine music industry. It serves as a platform to recognize and celebrate the achievements of both established and emerging Filipino artists. The awards show features live performances from the country's top musical acts and often includes special collaborations and surprise appearances.
                   </p>
-                  <p>
+                  <p class="tab">
                     The Myx Music Awards also engage fans through various social media platforms, encouraging them to vote for their favorite artists and share their excitement about the event. This interaction between fans and artists contributes to the vibrant and passionate music community in the Philippines.
                   </p>
                 </div>
@@ -95,26 +93,28 @@
             </div>
 
             <div class="awards-section">
-                <h4>Wish Music Awards</h4>
+                <h2><b>Wish Music Awards</b></h2>
                 <div class="award-content">
-                    <div class="award-image">
+                    <div class="wish-image">
                         <img src="assets/img/wish_awards.png" class="img" alt="Wish Music Awards">
                     </div>
                     <div class="award-description">
-                        <p>
+                        <p class="tab">
                             If you are familiar with Wish 107.5, this music award is presented by them. Wish 107.5 is a fastest rising FM radio station. One of their notable contributions is the introduction of the Wish Bus, which provides a unique musical experience by showcasing live performances of OPM bands, singers, and idols. This innovative concept has revolutionized the traditional practices of FM radio stations. Wish 107.5 is recognized for its pioneering efforts and continues to make waves in the industry.
                         </p>
-                        <p>
+                        <p class="tab">
                             With the evolution of music and to give recognition to Filipino Artists, Wish created this awarding ceremony wherein different OPM artists gather together to showcase their outstanding talent. Also, the winners of each category are given the chance to help other people by giving cash donations to their respective beneficiaries.
                         </p>
                     </div>
                 </div>
             </div>
         
-            <div class="read-more">
-              <a href="https://m.famousfix.com/list/philippine-music-awards">Read More Music Awards</a>
-            </div>
         </div>
+    </div>
+
+    <div class="bottom-links">
+      <a href="#top">BACK TO TOP <i class="fas fa-arrow-up"></i></a>
+      <a href="https://m.famousfix.com/list/philippine-music-awards">READ MORE</a>
     </div>
 
     <footer class="footer">
@@ -122,12 +122,13 @@
           <div class="links">
               <p>Quick links</p>
               <ul class="box">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="pages/Artists/artists.html">OPM Artists</a></li>
-                  <li><a href="pages/Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a></li>
-                  <li><a href="pages/Articles/Articles.html">Articles</a></li>
-                  <li><a href="pages/Future plans/futureplan.html">Future Plans</a></li>
-                  <li><a href="pages/About Us/About Us.html">About Us</a></li>
+                  <li><a href="../../index.html">Home</a></li>
+                  <li><a href="../Artists/artists.html">OPM Artists</a></li>
+                  <li><a href="../Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a></li>
+                  <li><a href="../Genre/genre.html">Genre</a></li>
+                  <li><a href="../Articles/Articles.html">Articles</a></li>
+                  <li><a href="../Future plans/futureplan.html">Future Plans</a></li>
+                  <li><a href="../About Us/About Us.html">About Us</a></li>
               </ul>
           </div>
           <div class="contact">

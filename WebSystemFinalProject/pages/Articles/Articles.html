@@ -9,6 +9,9 @@
     <meta name="description" content="Want to know more about Filipino music? Earn more knowledge about Filipino Music in Ritmo.">
     <meta name="keywords" content="OPM, Pinoy Music, Filipino Music, Tagalog Music, Original Pilipino Music">
     <link rel='stylesheet' type='text/css' media='screen' href='assets/styles/styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,40 +22,37 @@
 <body>
     <header class="header">
         <nav>
-            <div class="topbar">
-                <div class="topbar-content">
-                    <label for="sidebar-toggle" class="sidebar-toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" id="side">
+            <label for="side" class="sidebar">
+                <i class="fas fa-bars"></i>
+            </label>
 
-                    <a href="../../index.html" class="logo-link">
-                        <img src="assets/img/ritmoNotfinal (2).png" class="img" alt="Logo">
-                    </a>
-                    <div class="pages">
-                        <a href="../Artists/artists.html">OPM Artists</a>
-                        <a href="../Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a>
-                        <a href="../Genre/genre.html">Genre</a>
-                        <a href="../Articles/Articles.html">Articles</a>  
-                    </div>
-                </div>
-            </div>
 
-            <input type="checkbox" id="sidebar-toggle">
-            <div class="sidebar">
-                <a href="../../index.html">Home</a><br>
-                <a href="../About Us/About Us.html">About Us</a><br>
-                <a href="../Future plans/futureplan.html">Future plans</a><br>
-            </div>
+            <a href="index.html">
+                <img src="assets/img/ritmoNotfinal (2).png" class="img" alt="logo">
+            </a>
+
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/Artists/artists.html">Artist</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/Genre/genre.html">Genre</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/Philippine Music Awards/phmusicawards.html">Music Awards</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/Articles/Articles.html">Articles</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/Future plans/futureplan.html">Future Plans</a></li>
+                <li><a class="active" href="../WebSystemFinalProject/pages/About Us/About Us.html">About</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div id="articles">
+    <div class="articles">
         <div class="top-content">
-            <h1>Articles about OPM</h1>
+            <h1><span>Articles about OPM</span></h1>
         </div>
         <div class="card-container">
             <div class="card">
                 <div class="content">
                     <h2>OPM History Evolution</h2>
-                    <p>=====================</p>
+                    <p>========================================</p>
                     <p>Original Pilipino Music, commonly known as OPM, is a term used to refer to music created by Filipino artists in the Philippines or abroad. OPM has a long and rich history that spans over several decades, and it has played a significant role in shaping Filipino culture and identity.</p>
                 </div>
                 <div>
@@ -63,7 +63,7 @@
             <div class="card">
                 <div class="content1">
                     <h2>12 Best-Selling OPM Artists with Most Number of Platinum Records</h2>
-                    <p>=====================</p>
+                    <p>========================================</p>
                     <p>Music piracy has put a strain on the recording industry but there are Filipino singers who have continued to enjoy strong album sales.</p>
                 </div>
                 <div>
@@ -74,7 +74,7 @@
             <div class="card">
                 <div class="content2">
                     <h2>New chapter for OPM: Rising Filipino artists</h2>
-                    <p>=====================</p>
+                    <p>========================================</p>
                     <p>There has been an unprecedented rise in popularity and support for OPM (Original Pilipino Music) over the last few years as more people seem to have gained a newfound appreciation for the genre.</p>
                 </div>
                 <div>
@@ -85,38 +85,54 @@
             <div class="card">
                 <div class="content3">
                     <h2>COMPLETE LIST: 9th Wish Music Awards Winners</h2>
-                    <p>=====================</p>
+                    <p>========================================</p>
                     <p>Some of the biggest OPM stars across different genres and generations have gathered at the Araneta Coliseum on Sunday, January 14, 2024, for the 9th Wish Music Awards. Emerging as the event’s biggest winners are “rapstar” Flow G and P-pop kings SB19.</p>
                 </div>
                 <div>
                     <a href="https://wish1075.com/9th-wish-music-awards-winners/">See More</a>
                 </div>
             </div>
-    
+
             <div class="card">
                 <div class="content4">
                     <h2>Pinay OPM legends lead awardees to the 15th Star Awards for Music</h2>
-                    <p>=====================</p>
+                    <p>========================================</p>
                     <p>Vernie Varga and Odette Quesada, two iconic women in OPM, will be honored with lifetime achievement awards at the 15th Star Awards for Music by the PMPC.</p>
                 </div>
                 <div>
                     <a href="https://celebrityworldph.wordpress.com/2024/01/22/pinay-opm-legends-lead-awardees-to-the-15th-star-awards-for-music/">See More</a>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="content5">
+                    <h2>OPM and its Importance to Filipino Culture</p>
+                    <p>========================================</p>
+                    <p>OPM stands for Original Pilipino Music, a label meant to differentiate music composed by Filipinos in the Philippines from popular music derived from other countries. It is usually sung in Philippine native languages, most often Tagalog, but with Western music conventions and style.</p>
+                </div>
+                <div>
+                    <a href="https://opinion.inquirer.net/166691/opm-and-its-importance-to-filipino-culture">See More</a>
+                </div>
+            </div>
         </div>
     </div>
 
+    <div class="bottom-links">
+        <a href="#top">BACK TO TOP <i class="fas fa-arrow-up"></i></a>
+    </div>
+    
             <footer class="footer">
                 <div class="footer-top">
                     <div class="links">
                         <p>Quick links</p>
                         <ul class="box">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="pages/Artists/artists.html">OPM Artists</a></li>
-                            <li><a href="pages/Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a></li>
-                            <li><a href="pages/Articles/Articles.html">Articles</a></li>
-                            <li><a href="pages/Future plans/futureplan.html">Future Plans</a></li>
-                            <li><a href="pages/About Us/About Us.html">About Us</a></li>
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="../Artists/artists.html">OPM Artists</a></li>
+                            <li><a href="../Philippine Music Awards/phmusicawards.html">Philippine Music Awards</a></li>
+                            <li><a href="../Genre/genre.html">Genre</a></li>
+                            <li><a href="../Articles/Articles.html">Articles</a></li>
+                            <li><a href="../Future plans/futureplan.html">Future Plans</a></li>
+                            <li><a href="../About Us/About Us.html">About Us</a></li>
                         </ul>
                     </div>
                     <div class="contact">
