@@ -1,6 +1,5 @@
 @import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
 * {
-    font-family:   Arial, Helvetica, sans-serif;
     transition: 0.5s ease-in-out;
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +8,7 @@
     list-style: none;
 }
 body {
+  font-family:   Arial, Helvetica, sans-serif;
   min-height: 100vh;
 }
 
@@ -118,6 +118,7 @@ a:hover{
   height: 100px;
 }
 .content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -139,7 +140,7 @@ a:hover{
   width: 460px;
   background-color: mintgreen;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #welcome img:hover{
@@ -152,14 +153,14 @@ background-color: transparent;
     height: 70px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #fff0ff; 
+    background-color:#bc96e6; 
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 .content button:hover{
-    color: #fff0ff;
-    background-color: #ae759f;
+    color: #f8f4f9;
+    background-color: #926486;
     transform: translateY(-10px);
 }
 
@@ -209,6 +210,7 @@ background-color: transparent;
 }
 
 .card .content {
+  font-family: Arial, Helvetica, sans-serif;
   background: #ffffff !important;
   text-align: center;
   height: 50px;
@@ -265,17 +267,18 @@ background-color: transparent;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #55286f;
+  background: #bc96e6;
 }
 
 .bottom-links a {
+  font-size: 18px;
   margin-right: 20px;
   text-decoration: none;
-  color: rgb(239, 223, 201);
+  color:#f8f4f9;
 }
 
 .bottom-links a:hover {
-  color: rgb(197, 224, 180);
+  color:#55286f;
 }
 
 .bottom-links i {
@@ -295,7 +298,7 @@ background-color: transparent;
 
 .footer p {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .footer ul {

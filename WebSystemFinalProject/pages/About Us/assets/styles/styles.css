@@ -1,17 +1,18 @@
 @import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
 * {
-    font-family:   Georgia;
     transition: opacity 0.5s ease-in-out;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
   min-height: 100vh;
-  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 nav{
-  background: rgb(239, 223, 201);
+  background: #f8f4f9;
   height: 100px;
   width: 100%;
 }
@@ -19,9 +20,10 @@ nav{
 nav img{
   line-height: 100px;
   margin: 10px;
+  margin-top: 0;
   margin-left: 50px;
-  width: 150px;
-  height: 80px;
+  width: 220px;
+  height: 110px;
 }
 
 nav ul{
@@ -36,7 +38,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: rgb(56, 87, 35);
+  color: #210b2c;
   font-size: 15px;
   padding: 7px 13px;
   border-radius: 10px;
@@ -45,13 +47,16 @@ nav ul li a{
 }
 a:hover{
   background: none;
-  color: rgb(84, 130, 53);
+  color: #55286f;
 }
 
 
 .sidebar{
+  position: absolute;
+  top: 0%;
+  right: 0;
   font-size: 30px;
-  color: rgb(56, 87, 35);
+  color: #210b2c;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -81,8 +86,8 @@ a:hover{
   nav ul{
     position: fixed;
     width: 100%;
-    height: 100vh;
-    background:  rgb(239, 223, 201);
+    height: 100%;
+    background: #f8f4f9;
     top: 100px;
     left: -100%;
     align-items: center;
@@ -91,43 +96,58 @@ a:hover{
   }
   nav ul li{
     display: block;
-    margin: 50px 0;
+    margin: 20px 0;
     line-height: 30px;
   }
   nav ul li a{
-    font-size: 20px;
+    font-size: 18px;
+    color: #210b2c;
   }
   a:hover,a.active{
     background: none;
-    color: rgb(84, 130, 53);
+    color: #55286f;
   }
   #side:checked ~ ul{
     left: 0;
   }
 }
 
+
 .content{
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgb(14, 13, 13);
+  color: #f8f4f9;
+  background: #bc96e6;
 }
 
+.content h1{
+  font-family:'Arial Narrow Bold', sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.image{
+  display: inline-flex;
+  justify-self: right;
+  width: 100px;
+  height: 100px;
+}
 
 .bottom-links {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: rgb(56, 87, 35);
+  background: #55286f;
 }
 
 .bottom-links a {
   margin-right: 20px;
   text-decoration: none;
-  color: rgb(239, 223, 201);
+  color: #f8f4f9;
 }
 
 .bottom-links a:hover {
-  color: rgb(197, 224, 180);
+  color: #bc96e6;
 }
 
 .bottom-links i {
@@ -138,7 +158,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  background-color:  whitesmoke;
+  background-color: #f8f4f9;
 }
 
 .footer > * {
@@ -161,7 +181,7 @@ a:hover{
 
 .footer a {
   text-decoration: none;
-  color:rgb(8, 8, 8);
+  color:#210b2c;
 }
 
 .footer i{
