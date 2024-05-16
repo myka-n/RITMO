@@ -17,29 +17,30 @@
 </head>
 
 <body>
-        <header class="header">
-            <nav>
-                <input type="checkbox" id="side">
-                <label for="side" class="sidebar">
+    <header id="header" class="header">
+        <nav>
+    
+            <a href="../../index.html">
+                <img src="assets/img/RITMO.png" class="logo" alt="logo">
+            </a>
+    
+            <ul class="nav-links">
+                <li><a class="active" href="../../index.html">Home</a></li>
+                <li><a class="active" href="../Artists/artists.html">Artist</a></li>
+                <li><a class="active" href="../Genre/genre.html">Genre</a></li>
+                <li><a class="active" href="../Philippine Music Awards/phmusicawards.html Music Awards/phmusicawards.html">Music Awards</a></li>
+                <li><a class="active" href="../Articles/Articles.html">Articles</a></li>
+                <li><a class="active" href="../Future plans/futureplan.html plans/futureplan.html">Future Plans</a></li>
+                <li><a class="active" href="../About Us/About Us.html Us/About Us.html">About</a></li>
+            </ul>
+    
+            <div class="nav-toggle">
+                <button class="sidebar">
                     <i class="fas fa-bars"></i>
-                </label>
-    
-    
-                <a href="../../index.html">
-                    <img src="assets/img/RITMO 2.png" class="img" alt="logo">
-                </a>
-    
-                <ul>
-                    <li><a class="active" href="../../index.html">Home</a></li>
-                    <li><a class="active" href="../Artists/artists.html">Artist</a></li>
-                    <li><a class="active" href="../Genre/genre.html">Genre</a></li>
-                    <li><a class="active" href="../Philippine Music Awards/phmusicawards.html">Music Awards</a></li>
-                    <li><a class="active" href="../Articles/Articles.html">Articles</a></li>
-                    <li><a class="active" href="../Future plans/futureplan.html">Future Plans</a></li>
-                    <li><a class="active" href="../About Us/About Us.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
+                </button>
+            </div>
+        </nav>
+    </header>
     
     <div class="content">
         <h1>
@@ -158,5 +159,14 @@
                 <p>&copy; 2024 RITMO. All Rights Reserved.</p>
             </div>
         </footer>
+        <script>
+            const navToggle = document.querySelector('.nav-toggle button.sidebar');
+            const navLinks = document.querySelector('.nav-links');
+        
+            navToggle.addEventListener('click', (event) => {
+            event.preventDefault(); 
+            navLinks.classList.toggle('show');
+            });
+        </script>
 </body>
 </html>

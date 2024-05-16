@@ -19,17 +19,12 @@
 <body>
     <header id="header" class="header">
         <nav>
-            <input type="checkbox" id="side">
-            <label for="side" class="sidebar">
-                <i class="fas fa-bars"></i>
-            </label>
-
-
+    
             <a href="index.html">
-                <img src="assets/img/RITMO.png" class="img" alt="logo">
+                <img src="assets/img/RITMO.png" class="logo" alt="logo">
             </a>
-
-            <ul>
+    
+            <ul class="nav-links">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a class="active" href="pages/Artists/artists.html">Artist</a></li>
                 <li><a class="active" href="pages/Genre/genre.html">Genre</a></li>
@@ -38,9 +33,15 @@
                 <li><a class="active" href="pages/Future plans/futureplan.html">Future Plans</a></li>
                 <li><a class="active" href="pages/About Us/About Us.html">About</a></li>
             </ul>
+
+            <div class="nav-toggle">
+                <button class="sidebar">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </nav>
-       
     </header>
+
 
     <div class="content">
         <section id="welcome" >
@@ -119,9 +120,8 @@
             </div>
         </section>
     </div>
-
     <div class="bottom-links">
-        <a href="#top">BACK TO TOP <i class="fas fa-arrow-up"></i></a>
+        <a href="#header">BACK TO TOP <i class="fas fa-arrow-up"></i></a>
     </div>
 
     <footer class="footer">
@@ -157,6 +157,32 @@
             <p>&copy; 2024 RITMO. All Rights Reserved.</p>
         </div>
     </footer>
-    
+        <script>
+            const navToggle = document.querySelector('.nav-toggle button.sidebar');
+const navLinks = document.querySelector('.nav-links');
+
+navToggle.addEventListener('click', (event) => {
+  event.preventDefault(); 
+  navLinks.classList.toggle('show');
+});
+
+function scrollToSection() {
+  const header = document.getElementById('header');
+  const hiddenSection = document.getElementById('hidden-section');
+  const headerRect = header.getBoundingClientRect();
+  const hiddenSectionRect = hiddenSection.getBoundingClientRect();
+
+  if (hiddenSectionRect.top < headerRect.bottom) {
+    window.scrollTo({ top: headerRect.top, behavior: 'smooth' });
+  } else {
+    window.scrollTo({ top: hiddenSectionRect.top + window.pageYOffset, behavior: 'smooth' });
+  }
+
+  if (navLinks.classList.contains('show')) {
+    navLinks.classList.remove('show');
+  }
+}
+
+        </script>
 </body>
 </html>
