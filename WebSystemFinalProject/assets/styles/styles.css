@@ -373,3 +373,59 @@ scroll-behavior: smooth;
       flex: 2 0px;
   }
 }
+
+.comment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; 
+}
+
+.comment-card {
+  background: #55286f;
+  color: #fff; 
+  padding: 10px; 
+  margin: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px; 
+  text-align: center;
+}
+
+.comment-card h1 {
+  margin-bottom: 20px;
+}
+
+.comment-card label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.comment-card input[type="text"],
+.comment-card input[type="email"],
+.comment-card textarea {
+  width: 100%;
+  padding: 5px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.comment-card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-card button:hover {
+  background-color: #0056b3;
+}
+
+
