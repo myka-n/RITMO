@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";  
 $password = "";     
-$dbname = "comment_db.comments"; 
+$dbname = "commentdb"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
