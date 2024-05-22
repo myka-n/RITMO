@@ -123,9 +123,9 @@
     <div class="comment-container">
         <div class="comment-card">
             <h1>Comments</h1>
-            <form action="C:\Users\User\WebSystemFinalProject\WebSystemFinalProject\assets\php\submit_comment.php" method="post">
+            <form action="assets\php\submit_comment.php" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+                <input type="text" id="name" name="name"><br><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br><br>
                 <label for="comment">Comment:</label>
@@ -133,8 +133,8 @@
                 <button type="submit">Submit</button>
             </form>
             <h2>Comments:</h2>
-            <?php include 'C:\Users\User\WebSystemFinalProject\WebSystemFinalProject\assets\php\display_comments.php'; ?>
-            <a href="C:\Users\User\WebSystemFinalProject\WebSystemFinalProject\assets\php\submit_comment.php">View All Comments</a>
+            <?php include 'assets\php\display_comments.php'; ?>
+            <a href="assets\php\submit_comment.php">View All Comments</a>
         </div>
     </div>    
     

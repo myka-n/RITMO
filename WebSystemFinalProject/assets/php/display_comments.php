@@ -14,8 +14,15 @@ $sql = "SELECT name, comment FROM comments";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo "<p><strong>" . $row["name"]. "</strong>: " . $row["comment"]. "</p>";
+    while ($row = $result->fetch_assoc()) {
+        echo "<p>";
+    
+        // Display the name if it is not empty
+        if (!empty($row["name"])) {
+            echo "<strong>" . $row["name"] . "</strong>: ";
+        }
+    
+        echo $row["comment"] . "</p>";
     }
 } else {
     echo "No comments yet!";
