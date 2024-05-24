@@ -19,12 +19,12 @@
     <header id="header" class="header">
         <nav>
     
-            <a href="index.html">
+            <a href="index.php">
                 <img src="assets/img/RITMO1.png" class="logo" alt="logo">
             </a>
     
             <ul class="nav-links">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="index.php">Home</a></li>
                 <li><a class="active" href="pages/Artists/artists.html">Artist</a></li>
                 <li><a class="active" href="pages/Genre/genre.html">Genre</a></li>
                 <li><a class="active" href="pages/Philippine Music Awards/phmusicawards.html">Music Awards</a></li>
@@ -127,15 +127,20 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email"><br><br>
                 <label for="comment">Comment:</label>
                 <textarea id="comment" name="comment" required></textarea><br><br>
                 <button type="submit">Submit</button>
             </form>
-            <h2>Comments:</h2>
-            <?php include 'assets\php\display_comments.php'; ?>
-            <a href="assets\php\submit_comment.php">View All Comments</a>
         </div>
+        <div class="comment_view" style="margin-left: 20px; align-items:center; text-align: center; max-width: 700px">
+            <h2>Comments:</h2>
+            <br><br>
+            <div>
+            <?php include 'assets\php\display_comments.php'; ?>
+            </div>
+        </div>
+            
     </div>    
     
     <div class="bottom-links">
@@ -147,7 +152,7 @@
             <div class="links">
                 <p>Quick links</p>
                 <ul class="box">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="pages/Artists/artists.html">Artists</a></li>
                     <li><a href="pages/Genre/genre.html">Genre</a></li>
                     <li><a href="pages/Philippine Music Awards/phmusicawards.html">Music Awards</a></li>

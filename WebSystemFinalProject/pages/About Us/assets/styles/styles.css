@@ -1,5 +1,6 @@
 @import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
 * {
+    font-family:   Georgia;
     transition: opacity 0.5s ease-in-out;
     box-sizing: border-box;
     margin: 0;
@@ -122,11 +123,10 @@ nav img {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #f8f4f9;
-  background: #bc96e6;
+  background: #946fbb;
 }
 
 .content h1{
-  font-family:'Arial Narrow Bold', sans-serif;
   font-size: 48px;
   font-weight: bolder;
 }
@@ -136,6 +136,11 @@ nav img {
   justify-self: right;
   width: 100px;
   height: 100px;
+}
+
+.music_instrument{
+  display: flex;
+  justify-content: center;
 }
 
 .bottom-links {
