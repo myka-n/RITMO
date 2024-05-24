@@ -247,17 +247,17 @@ button a:hover {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color:  #9754cb;
+  background-color: #bc96e6;
 }
 
 .bottom-links a {
   margin-right: 20px;
   text-decoration: none;
-  color: #f8f4f9;
+  color: #55286f;
 }
 
 .bottom-links a:hover {
-  color: #deacf5;
+  color: #9754cb;
 }
 
 .bottom-links i {
