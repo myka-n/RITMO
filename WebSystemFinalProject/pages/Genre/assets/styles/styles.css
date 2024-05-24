@@ -1,16 +1,16 @@
-@import url("");
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
 * {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    transition: 0.5s ease-in-out;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  transition: 0.5s ease-in-out;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
+  font-family:   Arial, Helvetica, sans-serif;
+  background: #55286f;
   min-height: 100vh;
-  background: linear-gradient(to top, rgb(65, 114, 32), rgb(89, 114, 89), rgb(142, 145, 142));
 }
-
 
 .header {
   flex-shrink: 0;
@@ -127,16 +127,17 @@ nav img {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   font-size: 75px;
-  color: whitesmoke;
+  color: #f8f4f9;
 }
 
 
 .content h1 {
-  color: whitesmoke;
+  color: #f8f4f9;
+  background: #55286f;
   font-size: 50px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
+  padding: 40px;
   text-align: center;
 }
 
@@ -146,10 +147,11 @@ nav img {
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
+  background: #55286f;
 }
 
 .card {
-  background:  whitesmoke;
+  background:  #f8f4f9;
   border: 1px solid #ccc;
   border-radius: 10px;
   margin: 20px;
@@ -186,11 +188,11 @@ nav img {
 }
 
 .card hr{
-  border-top: 2px dotted;
+  border-top: 2px dotted #55286f;
 }
 
 .card h2 {
-  color: #333;
+  color: #55286f;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 36px;
   font-weight: 100;
@@ -227,8 +229,8 @@ nav img {
 
 button a {
   display: inline-block;
-  background-color:  rgb(56, 87, 35); 
-  color: rgb(239, 223, 201);
+  background-color:  #55286f; 
+  color: #f8f4f9;
   width: 100%;
   padding: 10px 20px;
   text-decoration: none;
@@ -237,25 +239,25 @@ button a {
 
 button a:hover {
   margin: 0;
-  background-color:  rgb(84, 130, 53);
-  color: rgb(239, 223, 201);
+  background-color:  #9754cb;
+  color: #deacf5;
 }
 
 .bottom-links {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: rgb(56, 87, 35);
+  background-color:  #9754cb;
 }
 
 .bottom-links a {
   margin-right: 20px;
   text-decoration: none;
-  color: rgb(239, 223, 201);
+  color: #f8f4f9;
 }
 
 .bottom-links a:hover {
-  color: rgb(197, 224, 180);
+  color: #deacf5;
 }
 
 .bottom-links i {

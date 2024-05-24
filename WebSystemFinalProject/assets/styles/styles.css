@@ -148,20 +148,20 @@ background-color: transparent;
 }
 
 .content button{
-  background-color: rgb(109, 56, 110); 
+  background-color: #f8f4f9; 
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 .content button i {
-  color:rgb(243, 247, 241);
+  color: #55286f;
 }
 
 .content button i:hover {
-color:rgb(239, 223, 201);
+color: #f8f4f9;
 }
 
 .content button:hover{
-  background-color: #55286f;
+  background-color: #9754cb;
   transform: translateY(-10px);
 }
 
