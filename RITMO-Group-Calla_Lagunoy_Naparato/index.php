@@ -120,9 +120,10 @@
         </section>
     </div>
     
+    <div class="comment-section">
     <div class="comment-container">
         <div class="comment-card">
-            <h1>Comments</h1>
+            <h1><i>Leave us a comment on your experience with our website</i></h1>
             <form action="assets\php\submit_comment.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
@@ -133,14 +134,14 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-        <div class="comment_view" style="margin-left: 20px; align-items:center; text-align: center; max-width: 700px">
+        <div class="comment_view">
             <h2>Comments:</h2>
             <br><br>
             <div>
             <?php include 'assets\php\display_comments.php'; ?>
             </div>
         </div>
-            
+    </div>
     </div>    
     
     <div class="bottom-links">
