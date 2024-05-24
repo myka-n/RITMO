@@ -1,6 +1,6 @@
 @import url("https://fonts.google.com/noto/specimen/Noto+Sans+Georgian");
 * {
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s ease-in-out;
   box-sizing: border-box;
   margin: 0;
@@ -98,7 +98,7 @@ nav img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #f8f4f9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,7 +167,7 @@ color: #f8f4f9;
 
 .scroll-button {
 background-color: #333;
-color: #fff;
+color: #f8f4f9;
 padding: 10px 20px;
 border: none;
 cursor: pointer;
@@ -203,7 +203,7 @@ scroll-behavior: smooth;
   max-width: 300px;
   max-height: 400px;
   margin: 10px;
-  background: #ffffff !important;
+  background: #f8f4f9 !important;
   opacity: 0.9;
 }
 .card:hover{
@@ -232,7 +232,7 @@ scroll-behavior: smooth;
 
 .card .content {
   font-family: Arial, Helvetica, sans-serif;
-  background: #ffffff !important;
+  background: #f8f4f9 !important;
   text-align: center;
   height: 50px;
   margin-top: 10px;
@@ -287,18 +287,18 @@ scroll-behavior: smooth;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #55286f;
+  background: #bc96e6;
 }
 
 .bottom-links a {
   font-size: 18px;
   margin-right: 20px;
   text-decoration: none;
-  color:#f8f4f9;
+  color:#55286f;
 }
 
 .bottom-links a:hover {
-  color:#55286f;
+  color:#9754cb;
 }
 
 .bottom-links i {
